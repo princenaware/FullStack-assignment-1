@@ -6,53 +6,76 @@
     <title>Document</title>
 
     <style>
-        body{
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .main{
+            height: 100vh;
+            width: 50%;
             background-image: url(https://images.unsplash.com/photo-1673322880837-80931e6e9e2a?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
             background-size: cover;
+            position: relative;
+            left: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
         }
 
         .top{
             text-align: center;
             font-size: large;
             color: white;
+            padding: 10px;
         }
         h1{
             font-weight: bold;
+            font-size: 40px;
         }
-
+        p{
+            font-size: 20px;
+        }
         .mid{
             text-align: left;
             color: white;
+            padding: 10px;
         }
 
        .down{
         text-align: center;
         color: white;
+        padding: 10px;
        }
        button{
-        height: 40px;
-        width: 120px;
+        height: 50px;
+        width: 150px;
         background-color: orange;
         padding: 10px;
         font-weight: bolder;
+        border: none;
        }
        a{
+        font-size: 25px;
         color: white;
        }
     </style>
 
 </head>
 <body>
-    
+   <div class="main">
+     
     <div class="top">
         <h1>ToDoList</h1>
-        
+        <br>
         <p>Each day i will accomplish one thing on my todo list.</p>
     </div>
-<br>
+
     <div class="mid">
         <h3>Read a Book</h3>
+        <br>
         <p>I dont think that the human race will survuve the next thousand years, unless we spread into space. There are too manu accidents that can befall life on a single planet. But i m an optimist....</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit doloremque fugiat, dignissimos harum mollitia aut eveniet exercitationem voluptate libero sapiente culpa corrupti est quas deserunt accusamus ut similique quam iste?</p>
     </div>
 
     <div class="down">
@@ -60,6 +83,7 @@
         <br><br>
         <a href="#">Don't skip introduction</a>
     </div>
+   </div>
 
 
 </body>
